@@ -1,8 +1,4 @@
-
-public class qwerty {
-
-	int x=3; 
+public interface qwerty {
 
 
-
-}
+	}
