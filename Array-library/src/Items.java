@@ -1,10 +1,12 @@
 public interface Items {
 
-	public void turninorout();
+	public void Turninorout();
 		
-	public void search();
+	public void Searchup();
 	
-	public boolean availabilty = true;
+	public boolean availabilty();
+	
+	public String Name();
 	
 
 	}
