@@ -20,23 +20,36 @@ public class Books implements Items {
 	    
 	    Turninorout.add(one);
 	    one.add(lable);
-	    
-	       
+
+
+
+
+
+
+}
+
+	@Override
+	public int Searchup(int index) {
+		return 0;
 	}
 
 	@Override
-	public void Searchup() {
-		
-	}
-
-	@Override
-	public boolean availabilty() {
+	public boolean setavailabilty(boolean avail) {
 		return false;
 	}
 
 	@Override
-	public String Name() {
+	public boolean getavailabilty() {
+		return false;
+	}
+
+	@Override
+	public String setName(String name) {
 		return null;
 	}
 
+	@Override
+	public String getName() {
+		return null;
+	}
 }

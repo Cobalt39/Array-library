@@ -2,11 +2,13 @@ public interface Items {
 
 	public void Turninorout();
 		
-	public void Searchup();
+	public int Searchup(int index);
 	
-	public boolean availabilty();
+	public boolean setavailabilty(boolean avail);
+	public boolean getavailabilty();
 	
-	public String Name();
+	public String setName(String name);
+	public String getName();
 	
 
 	}
